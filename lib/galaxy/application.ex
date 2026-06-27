@@ -15,7 +15,8 @@ defmodule Galaxy.Application do
       # Start a worker by calling: Galaxy.Worker.start_link(arg)
       # {Galaxy.Worker, arg},
       # Start to serve requests, typically the last entry
-      GalaxyWeb.Endpoint
+      GalaxyWeb.Endpoint,
+      Galaxy.PingNodes
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
