@@ -16,7 +16,8 @@ defmodule Galaxy.Application do
       # {Galaxy.Worker, arg},
       # Start to serve requests, typically the last entry
       GalaxyWeb.Endpoint,
-      Galaxy.PingNodes
+      Galaxy.PingNodes,
+      Galaxy.ClusterObserver
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
